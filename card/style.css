@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    font-weight: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: aqua;
+    
+}
+.card{
+    position: absolute; 
+    height: 500px;
+    width: 330px;
+    border: 1px solid salmon;
+    border-radius: 20px;
+    background-color: salmon;
+    overflow: hidden;
+}
+#card2:hover{
+    z-index: 10;
+}
+#card2{
+
+    rotate: -10deg;
+    background-color: blue;
+}
+#card3:hover{
+    z-index: 10;
+}
+#card3{
+    rotate: -20deg;
+    background-color: aqua;
+}
+#card4:hover{
+    z-index: 10;
+}
+#card4{
+    rotate: -30deg;
+    background-color: green;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

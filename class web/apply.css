@@ -1,0 +1,41 @@
+#form{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         
+}
+
+body{font-size: large;
+    font-weight: bold;
+    color: blue;
+    background-color:antiquewhite;
+}
+body h2,h3{
+    text-align: center;
+    color: blue;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+input{
+    padding-top: 10px;
+    background-color:antiquewhite;
+    border-radius: 10px;
+}
+
+#sub{
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 20px;
+    background-color: rgb(114, 184, 184);
+    border-radius: 15px;
+}
+
+#form label{
+  font-size: large;
+}
+
+#form button:hover{
+    border-color:violet;
+    background-color: blueviolet;
+}
